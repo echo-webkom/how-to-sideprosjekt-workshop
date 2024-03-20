@@ -15,4 +15,8 @@
     color: #222;
     background-color: #fff;
   }
+  
+  iframe {
+    display: block;
+  }
 }
