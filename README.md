@@ -68,4 +68,3 @@ Før du starter på oppgavene anbefaler vi å forke dette repoet til din egen Gi
 2. [Oppgave 2](./oppgaver/oppgave-2.md)
 3. [Oppgave 3](./oppgaver/oppgave-3.md)
 4. [Oppgave 4](./oppgaver/oppgave-4.md)
-5. [Oppgave 5](./oppgaver/oppgave-5.md)
