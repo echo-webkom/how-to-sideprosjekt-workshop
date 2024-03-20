@@ -1,6 +1,6 @@
 # Oppgave 3
 
-## Litt som sider i Next.js
+## Litt som sider og routing i Next.js
 
 Nå vet vi hvordan vi kan legge til nye elementer på siden, style de og flytte de ut i gjenbrukbare komponenter.
 
@@ -15,7 +15,7 @@ For eksempel:
 ```tsx
 // src/app/prosjekter/page.tsx
 
-export default ProjectPage() {
+export default function ProjectPage() {
   return (
     // Din kode her
   );

@@ -28,7 +28,7 @@ function App() {
 De har også mulighet til å ta inn parametere, som gjør dem mer gjenbrukbare:
 
 ```tsx
-// `interface` er en måte å definere et objekt/type i TypeScript
+// `interface` er en måte å definere objekter/typer i TypeScript
 // Her tar vi inn et objekt med en variabel `name` som er en streng
 interface GreetingProps {
   name: string;
@@ -137,7 +137,7 @@ Ikke glem å legge til litt styling med Tailwind CSS!
 
 Videre må du inkludere denne komponenten i `src/app/page.tsx`-filen. Sånn at den vises på siden.
 
-Fremover anbefaler vi også å lage komponenter når du føler at det er nødvendig. Det er veldig vanlig ha å masse komponenter i React-prosjekter, og det er en god praksis for å holde koden oversiktlig og gjenbrukbar.
+Fremover anbefaler vi også å lage komponenter når du føler at det er nødvendig. Det er veldig vanlig ha å en haug med komponenter i React-prosjekter, og det er en god praksis for å holde koden oversiktlig og gjenbrukbar.
 
 [Tilbake til oppgave 1](./oppgave-1.md)
 
