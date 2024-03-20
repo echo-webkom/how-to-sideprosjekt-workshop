@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className = "text-center h-screen bg-gradient-to-tl from-green-900 to-green-400 text-black">
@@ -11,9 +13,12 @@ export default function Home() {
       <li>🚀 TailwindCSS</li>
       <li>🚀 Vercel</li>
     </ul>
-    
-    <iframe className = "mx-auto" width="500" height="400" src="https://www.youtube.com/embed/456Mii_hQ90" title="BugShooter - a student game made in Java" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-    
+      <Link href = "/" className = "text-blue-300 hover:text-blue-100"> Home
+      </Link>
+
+      <Link href = "/projects" className = "text-blue-300 hover:text-blue-100"> Projects
+      </Link>
+      
     </div>
   );
 }
