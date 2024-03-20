@@ -7,7 +7,7 @@ export default function Home() {
               <br/>
                 <Liste />
                 <br/>
-                <p>Made by child workers</p>
+                <p>Made with love</p>
           </div>
       </div>
   );
