@@ -6,7 +6,7 @@ export default function Home() {
       <div className="flex flex-col min-h-screen bg-gradient-to-b from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
         <Header />
           <br/>
-          <div className="flex-grow text-center">
+          <div className="flex-grow">
                 <Navigation />
           </div>
           <Footer />
