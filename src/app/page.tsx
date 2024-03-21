@@ -1,4 +1,5 @@
 import {ProjectList} from "@/app/components/project-list";
+import {Navigation} from "@/app/components/navigation";
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
         <Header />
           <br/>
           <div className="flex-grow text-center">
-                <ProjectList />
+                <Navigation />
           </div>
           <Footer />
       </div>
