@@ -2,7 +2,7 @@ import {ProjectList} from "@/app/components/project-list";
 
 export default function Home() {
   return (
-      <div className="bg-gradient-to-r from-indigo-500 from-15% via-sky-400 via-60% to-emerald-500 to-25%">
+      <div className="flex flex-col min-h-screen bg-gradient-to-b from-indigo-500 from-15% via-sky-400 via-60% to-emerald-500 to-25%">
         <Header />
           <div className="flex-grow text-center">
                 <ProjectList />
@@ -21,7 +21,7 @@ export default function Home() {
 
     function Footer() {
         return (
-            <div className="bg-gray-100">
+            <div>
                 <p className="text-center p-4">Made by Trym, as a hobby project</p>
             </div>
         );
