@@ -2,7 +2,7 @@ import {ProjectList} from "@/app/components/project-list";
 
 export default function Home() {
   return (
-      <div className="flex flex-col min-h-screen bg-gradient-to-b from-light-blue-100 to-white">
+      <div className="bg-gradient-to-r from-indigo-500 from-15% via-sky-400 via-60% to-emerald-500 to-25%">
         <Header />
           <div className="flex-grow text-center">
                 <ProjectList />
@@ -14,7 +14,7 @@ export default function Home() {
     function Header() {
         return (
             <div>
-                <h1 className="text-4xl">Velkommen</h1>
+                <h1 className="text-4xl flex-grow text-center">Velkommen</h1>
             </div>
         );
     }
