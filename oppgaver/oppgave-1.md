@@ -1,12 +1,12 @@
 # Oppgave 1
 
-Vi starter med å få en enkel oversikt over hvordan man kan legge til nye elementer på en nettside. Gå til [src/app/page.tsx](../src/app/page.tsx), slett all i `return` i funksjonen `Home` og erstatt det med en liten introduksjon av deg selv. Her skriver du noe som heter for JSX, som er veldig likt HTML.
+Vi starter med å få en enkel oversikt over hvordan man kan legge til nye elementer på en nettside. Gå til [src/app/page.tsx](../src/app/page.tsx), slett alt i `return` i funksjonen `Home` og erstatt det med en liten introduksjon av deg selv. Her skriver du noe som heter JSX (React), som er veldig likt HTML.
 
-Det som er i `return` vil bli vist på nettsiden. Om du vil legge til en overskrift, kan du bruke `<h1>`, for en paragraf kan du bruke `<p>`. Om du vil legge til en liste, kan du bruke `<ul>` og `<li>`.
+Det som er i `return` vil bli vist på nettsiden. Om du vil legge til en overskrift, kan du bruke `<h1>`, for et paragraf kan du bruke `<p>`. Om du vil legge til en liste, kan du bruke `<ul>` med `<li>` elementer inni.
 
 Vær kreativ! Legg til så mye du vil. Jo mer du legger til, jo mer lærer du. Om du har vært borti HTML før, merker du sikkert at dette ser veldig likt ut. De mest grunnlegende og mest brukte elementene er:
 
-- `<div>`: En "container" for andre elementer.
+- `<div>`: En "container" / "boks" for andre elementer.
 - `<h1>`, `<h2>`, ..., `<h6>`: Overskrifter. `h1` er den største, `h6` er den minste.
 - `<p>`: En paragraf.
 
@@ -28,7 +28,7 @@ export default function Home() {
 
 </details>
 
-Siden vi bruker Tailwind CSS kommer alt av default styling av elementer være fjernet. Derfor må vi style de selv. Man kan for eksempel legge til `className="text-2xl"` på en `<h1>` for å gjøre teksten større. Om du vil ha en overskrift som er enda større, kan du bruke `text-3xl`, `text-4xl`, osv. Du kan også legge til `className="text-center"` i den ytterste `<div>` for å sentrere alt innholdet.
+Siden vi bruker Tailwind CSS kommer alt av default styling av elementer til å være fjernet. Derfor må vi style de selv. Man kan for eksempel legge til `className="text-2xl"` på en `<h1>` for å gjøre teksten større. Om du vil ha en overskrift som er enda større, kan du bruke `text-3xl`, `text-4xl`, osv. Du kan også legge til `className="text-center"` i ytterste `<div>` for å sentrere teksten.
 
 <details>
 <summary>💡 Hint</summary>
@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <div className="text-center">
       <h1 className="text-2xl">Hei, jeg heter [ditt navn]!</h1>
-      <p>Jeg studerer [studie] på Universitetet i Bergen.</p>
+      <p>Jeg studerer [studie] ved Universitetet i Bergen.</p>
     </div>
   );
 }

@@ -12,7 +12,7 @@ Dette repoet tilhører en workshop/arrangement som handler om å lage sitt eget 
 
 ## Forutsetninger
 
-Vi forventer at du har `node` og `npm` installert. For å laste ned til ditt opperativsystem sjekk innstruksene her:
+Vi forventer at du har `node` og `npm` installert. For å laste ned til ditt operativsystem sjekk innstruksene her:
 
 - **På Mac**: `node` og `npm` kan enkelt installeres ved å bruke [Homebrew](https://brew.sh). Åpne terminalen og kjør kommandoen `brew install node`. Om du ikke Homebrew, kan du laste ned `node` fra [Node.js sin offisielle nettside](https://nodejs.org/en/download).
 - **Windows-brukere**: Besøk [Node.js sin offisielle nettside](https://nodejs.org/en/download) og last ned den relevante installasjonsfilen for ditt system.
@@ -68,4 +68,3 @@ Før du starter på oppgavene anbefaler vi å forke dette repoet til din egen Gi
 2. [Oppgave 2](./oppgaver/oppgave-2.md)
 3. [Oppgave 3](./oppgaver/oppgave-3.md)
 4. [Oppgave 4](./oppgaver/oppgave-4.md)
-5. [Oppgave 5](./oppgaver/oppgave-5.md)
