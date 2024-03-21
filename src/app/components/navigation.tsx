@@ -9,7 +9,7 @@ export function Navigation() {
             <Link href="/my-links">
                 <a className="text-emerald-950 hover:text-blue-200">Link to my HTB, THM, GitHub and LinkedIn</a>
             </Link>
-            <Link href="/my-projects">
+            <Link href="/my-projects/page.tsx">
                 <a className="text-emerald-950 hover:text-blue-200">My projects</a>
             </Link>
         </nav>
