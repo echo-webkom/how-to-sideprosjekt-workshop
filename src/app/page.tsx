@@ -9,7 +9,7 @@ export default function Home() {
         </h1>
 
         <div className="text-column">
-          <h2>I think this is a quote that John Wayne said</h2>
+          
           <h2>Anyways I am learning how to make a website</h2>
           <h3 className="text-3xl bg-gradient-to-tr from-cyan-950 to-green-800">What is it that I am doing here</h3>
           <ul>
