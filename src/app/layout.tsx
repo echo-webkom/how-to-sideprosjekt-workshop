@@ -15,7 +15,7 @@ export default function RootLayout({
       <>
         <Head>
             <title>{metadata.title as string}</title>
-            <link rel="icon" href="@/app/favicon.ico"/>
+            <link rel="icon" href="../../public/favicon.ico"/>
         </Head>
         <html lang="no">
           <body>
