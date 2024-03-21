@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "How to sideprosjekt",
+  title: "Trym Jakobsen",
 };
 
 export default function RootLayout({
