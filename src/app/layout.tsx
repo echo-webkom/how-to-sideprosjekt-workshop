@@ -15,7 +15,7 @@ export default function RootLayout({
       <>
         <Head>
             <title>{metadata.title as string}</title>
-            <link rel="icon" href="../../public/favicon.ico" type="image/x-icon"/>
+            <link rel="manifest" href="/site.webmanifest"/>
         </Head>
         <html lang="no">
           <body>
