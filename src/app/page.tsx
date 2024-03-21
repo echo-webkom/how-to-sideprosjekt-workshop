@@ -2,7 +2,7 @@ import {ProjectList} from "@/app/components/project-list";
 
 export default function Home() {
   return (
-      <div className="flex flex-col min-h-screen bg-gradient-to-b from-indigo-500 from-15% via-sky-400 via-60% to-emerald-500 to-25%">
+      <div className="flex flex-col min-h-screen bg-gradient-to-b from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
         <Header />
           <div className="flex-grow text-center">
                 <ProjectList />
