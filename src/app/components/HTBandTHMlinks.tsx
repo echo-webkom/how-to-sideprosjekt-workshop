@@ -1,7 +1,3 @@
 export function ProjectList() {
-    return (
-        <div>
-
-        </div>
-    )
+  return <div></div>;
 }
