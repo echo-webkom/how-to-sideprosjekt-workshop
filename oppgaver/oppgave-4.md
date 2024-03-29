@@ -29,11 +29,11 @@ import Link from "next/link";
 export function Navigation() {
   return (
     <nav className="flex gap-4">
-      <Link href="/">
-        <a className="text-blue-300 hover:text-blue-100">Hjem</a>
+      <Link className="text-blue-300 hover:text-blue-100" href="/">
+        Hjem
       </Link>
-      <Link href="/prosjekter">
-        <a className="text-blue-300 hover:text-blue-100">Prosjekter</a>
+      <Link className="text-blue-300 hover:text-blue-100" href="/prosjekter">
+        Prosjekter
       </Link>
     </nav>
   );

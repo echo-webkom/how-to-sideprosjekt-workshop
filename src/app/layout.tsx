@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Head from "next/head";
 
 export const metadata: Metadata = {
-  title: "Trym Jakobsen",
+  title: "Trym",
 };
 
 export default function RootLayout({
@@ -11,11 +12,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="no">
-      <body>
-        {/* <Navigation /> */}
-        {children}
-      </body>
-    </html>
+    <>
+      <Head>
+        <title>{metadata.title as string}</title>
+        <link rel="manifest" href="/site.webmanifest" />
+      </Head>
+      <html lang="no">
+        <body>
+          {/* <Navigation /> */}
+          {children}
+        </body>
+      </html>
+    </>
   );
 }
