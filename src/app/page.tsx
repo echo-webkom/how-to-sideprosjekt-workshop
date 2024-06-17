@@ -29,7 +29,7 @@ export default function Home() {
       
 
       <div>
-            <h5>Here are the list of my projects that I have worked on</h5>
+            <h5>Here are some projects that I have worked on:</h5>
             
             <iframe className = "mx-auto" width="500" height="400" src="https://www.youtube.com/embed/456Mii_hQ90" title="BugShooter - a student game made in Java" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             <p className = "text-center">Bugshooter - Semesteroppgave Inf101</p>
