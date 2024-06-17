@@ -20,7 +20,8 @@
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background: linear-gradient(to top left, #013220, #006400);
+    background: linear-gradient(to top left, #f3f5f4, #006400);
+    color: black;
   }
 
   #main, .full-screen {
