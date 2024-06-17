@@ -32,6 +32,7 @@
   .full-screen {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     background: inherit; /* Use the parent's background */
     text-align: center;
@@ -69,6 +70,13 @@
     width: 100%;
     height: 100%;
     border: 0;
+  }
+
+  .video-caption {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1rem; /* Ensure readable font size */
+    color: #fff; /* White color for visibility on a black background */
   }
 
   h1, h2, h3, p {
