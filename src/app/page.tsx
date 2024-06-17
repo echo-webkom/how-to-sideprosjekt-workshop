@@ -25,8 +25,10 @@ export default function Home() {
 
       <div>
             
-            <iframe className = "mx-auto" width="500" height="400" src="https://www.youtube.com/embed/456Mii_hQ90" title="BugShooter - a student game made in Java" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <iframe className = "mx-auto" width="600" height="500" src="https://www.youtube.com/embed/456Mii_hQ90" title="BugShooter - a student game made in Java" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             <p className = "text-center font-bold">Bugshooter - Semesteroppgave Inf101 april 2023</p>
+
+
         
       </div>
     </div>
