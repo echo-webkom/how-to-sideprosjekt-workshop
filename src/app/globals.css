@@ -8,6 +8,11 @@
     min-width: 0;
   }
 
+  #main div {
+    -ms-flex: 1; /* IE 10 */
+    flex: 1;
+  }
+
   body {
     line-height: 1.5;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
