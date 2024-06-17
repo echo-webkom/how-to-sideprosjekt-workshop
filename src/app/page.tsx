@@ -12,7 +12,7 @@ export default function Home() {
       
           I am a Computer Science student in Bergen, Norway <br></br>
           Take a look at my {" "}
-          <a href = "https://github.com/KWaloen" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href = "https://github.com/KWaloen" target="_blank" rel="noopener noreferrer" className="link">GitHub</a>
       
         </h2>
       

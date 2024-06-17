@@ -58,7 +58,7 @@
     height: 0;
     overflow: hidden;
     width: 100%;
-    max-width: 40%; /* Limit the width on larger screens */
+    max-width: 80%; /* Limit the width on larger screens */
     background: #000;
     margin: 0 auto;
   }
@@ -84,16 +84,16 @@
   }
 
   .link {
-    margin-top: 1rem;
-    font-size: 1rem;
+    color: #0070f3; /* Blue color for the links */
+    text-decoration: none; /* Remove default underline */
+    font-weight: bold; /* Make links bold for emphasis */
   }
 
-  .link a {
-    color: #0070f3;
-    text-decoration: none;
+  .link:hover {
+    text-decoration: underline; /* Underline on hover */
   }
 
-  .link a:hover {
-    text-decoration: underline;
+  .link:visited {
+    color: #551a8b; /* Visited link color */
   }
 }
