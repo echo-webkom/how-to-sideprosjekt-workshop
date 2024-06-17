@@ -8,22 +8,30 @@
     min-width: 0;
   }
 
-  #main div {
-    -ms-flex: 1; /* IE 10 */
-    flex: 1;
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   body {
-    line-height: 1.5;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 1rem;
-    color: #222;
-    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
+  }
+
+  #main, .text-center {
+    width: 100%;
+    height: 100%;
+  }
+
+  .text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   iframe {
@@ -58,5 +66,7 @@
     padding: 1rem; /* Add some padding to avoid content touching the edges */
   }
 
- 
+  h1, h2, h3, p {
+    margin: 0 0 1rem 0; /* Add margin to space out the elements */
+  }
 }
