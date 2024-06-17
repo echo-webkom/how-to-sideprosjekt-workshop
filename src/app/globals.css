@@ -51,6 +51,17 @@
     display: block;
   }
 
+  .iframe-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 560px; /* Maximum width for the video */
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #000;
+  }
+
   /* Responsive video container */
   .video-container {
     position: relative;

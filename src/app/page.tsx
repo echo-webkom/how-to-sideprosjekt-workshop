@@ -27,6 +27,8 @@ export default function Home() {
         </h3>
       
         <div className="video-container">
+
+          <div className = "iframe-wrapper">
       
           <iframe
             className="responsive-iframe"
@@ -34,7 +36,7 @@ export default function Home() {
             title="BugShooter - a student game made in Java"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
-      
+          </div>
           <p className="video-caption">
             BugShooter - Semesteroppgave Inf101 april 2023
       
