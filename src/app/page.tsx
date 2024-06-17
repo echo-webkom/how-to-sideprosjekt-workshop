@@ -16,8 +16,7 @@ export default function Home() {
 
         <h3 className="text-center text-xl font-bold py-8">
           Stay tuned, this site is under construction! <br></br>
-          In the meantime, scroll down to take a look <br></br> 
-          at what I have worked on so far! 
+          In the meantime, scroll down to take a look at what I have worked on so far! 
           <br></br>
 
           </h3>
