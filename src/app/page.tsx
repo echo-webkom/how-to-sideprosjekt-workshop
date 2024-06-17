@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
         <h2 className="text-2xl font-bold py-8">
       
           I am a Computer Science student in Bergen, Norway
+          Take a look at my GitHub: {" "}
+          <a href = "https://github.com/KWaloen">GitHub</a>
       
         </h2>
       
@@ -33,9 +36,14 @@ export default function Home() {
           ></iframe>
       
           <p className="video-caption">
-            Bugshooter - Semesteroppgave Inf101 april 2023
+            BugShooter - Semesteroppgave Inf101 april 2023
       
           </p>
+        
+        <h4 className="text-xl font-bold py-8">
+          GitHub Repo for BugShooter is available here: 
+
+        </h4>
       
         </div>
       
