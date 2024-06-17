@@ -10,9 +10,9 @@ export default function Home() {
       
         <h2 className="text-2xl font-bold py-8">
       
-          I am a Computer Science student in Bergen, Norway
-          Take a look at my GitHub: {" "}
-          <a href = "https://github.com/KWaloen">GitHub</a>
+          I am a Computer Science student in Bergen, Norway <br></br>
+          Take a look at my {" "}
+          <a href = "https://github.com/KWaloen" target="_blank" rel="noopener noreferrer">GitHub</a>
       
         </h2>
       

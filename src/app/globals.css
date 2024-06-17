@@ -82,4 +82,18 @@
   h1, h2, h3, p {
     margin: 0 0 1rem 0; /* Add margin to space out the elements */
   }
+
+  .link {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .link a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+
+  .link a:hover {
+    text-decoration: underline;
+  }
 }
