@@ -16,19 +16,22 @@ export default function Home() {
 
         <h3 className="text-center text-2xl font-bold text-white py-8">
           <span className="text-black">I am learning to make a website using React</span>
-        </h3>
-
+          </h3>
+          
         <div className="text-column">
           
           <h2>Stay tuned, this site is under construction!</h2>
       
-          In the meantime, click on the Projects tab to take a look at what I have worked on so far!
+          In the meantime, scroll down to take a look at what I have worked on so far!
         </div>
       
 
       <div>
-        <Link href="/" className="text-blue-300 hover:text-blue-100"> Home </Link>
-        <Link href="/projects" className="text-blue-300 hover:text-blue-100"> Projects </Link>
+            <h2>Here are the list of my projects that I have worked on</h2>
+            
+            <iframe className = "mx-auto" width="500" height="400" src="https://www.youtube.com/embed/456Mii_hQ90" title="BugShooter - a student game made in Java" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <p className = "text-center">Bugshooter - Semesteroppgave Inf101</p>
+        
       </div>
     </div>
     </div>
