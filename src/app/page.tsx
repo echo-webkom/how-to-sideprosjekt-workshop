@@ -4,21 +4,21 @@ export default function Home() {
   return (
     <div className="text-center h-screen bg-gradient-to-tl from-green-900 to-green-400 text-black">
       <div className="column-container">
-        <h1 className="text-center text-2xl font-bold text-white py-8">
-          <span className="text-black">Hi, my name is Kai 👋</span>
+        <h1 className="text-center text-2xl font-bold py-8">
+          Hi, my name is Kai 👋
           
         </h1>
 
-        <h2 className="text-center text-2xl font-bold text-white py-8">
-        <span className="text-black">I am a Computer Science student in Bergen, Norway</span>
+        <h2 className="text-center text-2xl font-bold py-8">
+        I am a Computer Science student in Bergen, Norway
 
         </h2>
 
-        <h3 className="text-center text-xl font-bold text-white py-8">
-          <span className="text-black">Stay tuned, this site is under construction!</span>
+        <h3 className="text-center text-xl font-bold py-8">
+          Stay tuned, this site is under construction!
           </h3>
           
-        <div className="text-center text-xl text-white py-8">
+        <div className="text-center text-xl py-8">
           
           <h4>
       
