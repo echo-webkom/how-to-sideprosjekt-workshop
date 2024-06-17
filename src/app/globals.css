@@ -32,7 +32,6 @@
   .full-screen {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background: inherit; /* Use the parent's background */
     text-align: center;
