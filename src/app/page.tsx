@@ -6,9 +6,17 @@ export default function Home() {
       <div className="column-container">
         <h1 className="text-center text-2xl font-bold text-white py-8">
           <span className="text-black">Hi, my name is Kai</span>
-          <span className="text-black">I am a Computer Science student in Bergen, Norway</span>
-          <span className="text-black">I am learning to make a website using React</span>
+          
         </h1>
+
+        <h2 className="text-center text-2xl font-bold text-white py-8">
+        <span className="text-black">I am a Computer Science student in Bergen, Norway</span>
+
+        </h2>
+
+        <h3 className="text-center text-2xl font-bold text-white py-8">
+          <span className="text-black">I am learning to make a website using React</span>
+        </h3>
 
         <div className="text-column">
           
