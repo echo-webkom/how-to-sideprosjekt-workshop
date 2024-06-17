@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="text-center h-screen bg-gradient-to-tl from-green-900 to-green-400 text-black">
       <div className="column-container">
-        <h1 className="text-center text-2xl font-bold text-white py-8">
+        <h1 className="text-center text-2xl">
           <span className="text-black">Hi, my name is Kai 👋</span>
           
         </h1>
@@ -23,7 +23,7 @@ export default function Home() {
           <h4>
       
           In the meantime, scroll down to take a look at what I have worked on so far!
-          
+
           </h4>
         
         </div>
