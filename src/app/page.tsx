@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="text-center h-screen bg-gradient-to-tl from-green-900 to-green-400 text-black">
       <div className="column-container">
-        <h1 className="text-center text-2xl font-bold py-8">
+        <h1 className="text-center text-3xl font-bold py-8">
           Hi, my name is Kai 👋
           
         </h1>
