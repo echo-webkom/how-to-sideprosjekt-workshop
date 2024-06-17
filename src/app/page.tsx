@@ -20,7 +20,7 @@ export default function Home() {
           
         <div className="text-column">
           
-          <h4>Stay tuned, this site is under construction!
+          <h4>Stay tuned, this site is under construction! <br></br>
       
           In the meantime, scroll down to take a look at what I have worked on so far!
           </h4>
