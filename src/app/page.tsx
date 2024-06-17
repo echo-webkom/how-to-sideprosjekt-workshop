@@ -15,22 +15,12 @@ export default function Home() {
         </h2>
 
         <h3 className="text-center text-xl font-bold py-8">
-          Stay tuned, this site is under construction!
+          Stay tuned, this site is under construction! <br></br>
           In the meantime, scroll down to take a look at what I have worked on so far! 
           <br></br>
 
           </h3>
           
-        <div className="text-center text-xl  py-8">
-          
-          <h4>
-      
-          In the meantime, scroll down to take a look at what I have worked on so far! 
-          <br></br>
-          
-          </h4>
-        
-        </div>
       
 
       <div>
