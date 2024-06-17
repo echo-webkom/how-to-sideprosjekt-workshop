@@ -58,7 +58,5 @@
     padding: 1rem; /* Add some padding to avoid content touching the edges */
   }
 
-  h1, h2, h3, p {
-    margin: 0 0 1rem 0; /* Add margin to space out the elements */
-  }
+ 
 }
