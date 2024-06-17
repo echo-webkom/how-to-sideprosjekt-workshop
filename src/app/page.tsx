@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="text-center h-screen bg-gradient-to-tl from-green-900 to-green-400 text-black">
       <div className="column-container">
-        <h1 className="text-center text-4xl font-bold text-white py-8">
+        <h1 className="text-center text-2xl font-bold text-white py-8">
           <span className="text-black">Hi, my name is Kai</span>
           <span className="text-black">I am a Computer Science student in Bergen, Norway</span>
           <span className="text-black">I am learning to make a website using React</span>
