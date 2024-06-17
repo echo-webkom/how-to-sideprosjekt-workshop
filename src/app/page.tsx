@@ -14,15 +14,16 @@ export default function Home() {
 
         </h2>
 
-        <h3 className="text-center text-2xl font-bold text-white py-8">
-          <span className="text-black">I am learning to make a website using React</span>
+        <h3 className="text-center text-xl font-bold text-white py-8">
+          <span className="text-black">Stay tuned, this site is under construction!</span>
           </h3>
           
         <div className="text-column">
           
-          <h4>Stay tuned, this site is under construction! <br></br>
+          <h4>
       
           In the meantime, scroll down to take a look at what I have worked on so far!
+          
           </h4>
         
         </div>
