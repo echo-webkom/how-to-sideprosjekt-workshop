@@ -5,19 +5,16 @@ export default function Home() {
     <div className="text-center h-screen bg-gradient-to-tl from-green-900 to-green-400 text-black">
       <div className="column-container">
         <h1 className="text-center text-4xl font-bold text-white py-8">
-          <span className="text-black">KWAL</span>
+          <span className="text-black">Hi, my name is Kai</span>
+          <span className="text-black">I am a Computer Science student in Bergen, Norway</span>
+          <span className="text-black">I am learning to make a website using React</span>
         </h1>
 
         <div className="text-column">
           
-          <h2>Anyways I am learning how to make a website</h2>
-          <h3 className="text-3xl bg-gradient-to-tr from-cyan-950 to-green-800">What is it that I am doing here</h3>
-          <ul>
-            <li>🚀 Next.js</li>
-            <li>🚀 Typescript</li>
-            <li>🚀 TailwindCSS</li>
-            <li>🚀 Vercel</li>
-          </ul>
+          <h2>Stay tuned, this site is under construction!</h2>
+      
+          In the meantime, click on the Projects tab to take a look at what I have worked on so far!
         </div>
       
 
