@@ -58,7 +58,7 @@
     height: 0;
     overflow: hidden;
     width: 100%;
-    max-width: 80%; /* Limit the width on larger screens */
+    max-width: 40%; /* Limit the width on larger screens */
     background: #000;
     margin: 0 auto;
   }
