@@ -11,13 +11,17 @@ export default function Home() {
         <h2 className="text-2xl py-8">
           
           I am a Computer Science student in Bergen, Norway <br></br><br></br>
-          Welcome to my Portfolio Website, also take a look at my {" "}
+          Welcome to my Portfolio Website! Take a look at the source code {" "}
+          <a href = "https://github.com/KWaloen/My-Portolio-Website" target="_blank" rel="noopener noreferrer" className="link">here.</a>
+          <br></br>
+          
+          Also take a look at my {" "}
           <a href = "https://github.com/KWaloen" target="_blank" rel="noopener noreferrer" className="link">GitHub </a>
           page! 
           <br></br><br></br>
           This site is under constant construction! I am learning as I go! <br></br>
           I am self taught in JavaScript and this page is created using React, Tailwind CSS, and hosted by Vercel. 
-          <br></br>
+         
       
         </h2>
 
@@ -47,6 +51,12 @@ export default function Home() {
           <a href = "https://github.com/KWaloen/BugShooter" target="_blank" rel="noopener noreferrer" className="link">repository </a>
           on my GitHub!
         </h4>
+
+        <h3 className="text-2xl font-bold py-8"> 
+          
+          Project 2: Rodent Reboot
+
+        </h3>
       
       </div>
     
