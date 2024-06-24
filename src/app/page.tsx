@@ -79,7 +79,7 @@ export default function Home() {
           
 
           My role in this project was lead tester and developer. As a tester, my responsibilities were to ensure that we complied with minimum coverage (75%) and to carry out manual testing, otherwords play the game a lot! 
-          As a developer, my main responsibilities were code review and writing code. My biggest contribution was the implementation of the item system in which I used a Strategy Design Pattern to randomly spawn and carry out specific powerup effects that the player interacted with at designated item spawn points on the map. 
+          As a developer, my main responsibilities were code review and writing code. My biggest contribution was the implementation of the item system in which I used a Strategy Design Pattern to randomly spawn powerup items and carry out specific powerup effects that the player interacted with at designated item spawn points on the map. 
 
           <br></br><br></br>
           For further information, check out the Rodent Reboot {" "}
