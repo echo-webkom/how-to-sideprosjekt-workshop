@@ -16,7 +16,7 @@ export default function Home() {
           page! 
           <br></br><br></br>
           This site is under constant construction! I am learning as I go! <br></br>
-          I am self taught in JavaScript and this page is created using React and Tailwind CSS. 
+          I am self taught in JavaScript and this page is created using React, Tailwind CSS, and hosted by Vercel. 
       
         </h2>
       
