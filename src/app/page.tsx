@@ -27,7 +27,7 @@ export default function Home() {
 
         <h3 className="text-2xl font-bold py-8"> 
           
-          Project 1: BugShooter
+          BugShooter
 
         </h3>
       
@@ -54,7 +54,7 @@ export default function Home() {
 
         <h3 className="text-2xl font-bold py-8"> 
           
-          Project 2: Rodent Reboot
+          Rodent Reboot
 
         </h3>
 
