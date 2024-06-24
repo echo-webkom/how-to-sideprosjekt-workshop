@@ -15,7 +15,8 @@ export default function Home() {
           <a href = "https://github.com/KWaloen" target="_blank" rel="noopener noreferrer" className="link">GitHub </a>
           page! 
           <br></br><br></br>
-          This site is under constant construction! I am learning as I go!
+          This site is under constant construction! I am learning as I go! <br></br>
+          I am self taught in JavaScript and this page is created using React and Tailwind CSS. 
       
         </h2>
       
