@@ -62,7 +62,7 @@ export default function Home() {
             className="mx-auto"
             width="500" 
             height="400"
-            src="https://www.youtube.com/watch?v=Q8Xg16uNTP0"
+            src="https://www.youtube.com/embed/Q8Xg16uNTP0"
             title="Rodent Reboot"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             allowFullScreen
