@@ -27,7 +27,7 @@ export default function Home() {
           I am self taught in JavaScript and this page is created using React, Tailwind CSS, and hosted by Vercel.
         </h2>
 
-        <h2 className="text-xl font-bold"> React Projects</h2>
+        <h2 className="text-xl font-bold">React Projects</h2>
 
         <h2>
           <li>
