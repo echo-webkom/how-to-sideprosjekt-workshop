@@ -3,7 +3,7 @@
 //use client is necessary for NextJS to not throw a hissy fit
 "use client"
 
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { NewToDoForm } from "./NewToDoForm"
 import { ToDoList } from "./ToDoList"
 
@@ -24,17 +24,7 @@ export default function ToDoListPage() {
 
 
   //reads through local storage and finds ITEMS and if it is not empty it returns it
-  const [todos, setTodos] = useState<{ id: string; title: string; completed: boolean; }[]>(() => {
-    const localValue = localStorage.getItem("ITEMS")
-    if (localValue == null) return []
-    return JSON.parse(localValue)
-  })
-
-  //use effect stores items in local storage in string format
-  useEffect(() => {
-    localStorage.setItem("ITEMS", JSON.stringify(todos))
-  }, [todos])
-
+  const [todos, setTodos] = useState<{ id: string; title: string; completed: boolean; }[]>([])
   //this updates the state of the todo list
   //currentTodos are retrieved from the useState hook declared above
   //When you call setTodos with a function, React will automatically pass the current state as an argument to that function. 
