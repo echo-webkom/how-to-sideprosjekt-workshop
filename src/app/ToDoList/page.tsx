@@ -1,7 +1,6 @@
 //This ToDO List was created based on this tutorial: https://www.youtube.com/watch?v=Rh3tobg7hEof
 
-//use client is necessary for NextJS to not throw a hissy fit
-"use client"
+
 
 import { useEffect, useState } from "react"
 import { NewToDoForm } from "./NewToDoForm"
