@@ -1,12 +1,16 @@
 //This ToDO List was created based on this tutorial: https://www.youtube.com/watch?v=Rh3tobg7hEof
 
+//use client is necessary for NextJS to not throw a hissy fit
+"use client"
+
+import { useEffect, useState } from "react"
 import { NewToDoForm } from "./NewToDoForm"
 import { ToDoList } from "./ToDoList"
 
 
 export default function ToDoListPage() {
 
-  
+
   //HOOKS IN REACT HAVE TO BE CALLED AT THE TOP OF THE FUNCTION
 
   //syntax of useState: const [state, setState] = useState(initialState);
@@ -20,8 +24,16 @@ export default function ToDoListPage() {
 
 
   //reads through local storage and finds ITEMS and if it is not empty it returns it
-  const [todos, setTodos] = useState<{ id: string; title: string; completed: boolean; }[]>([])
+  const [todos, setTodos] = useState<{ id: string; title: string; completed: boolean; }[]>(() => {
+    const localValue = localStorage.getItem("ITEMS")
+    if (localValue == null) return []
+    return JSON.parse(localValue)
+  })
 
+  //use effect stores items in local storage in string format
+  useEffect(() => {
+    localStorage.setItem("ITEMS", JSON.stringify(todos))
+  }, [todos])
 
   //this updates the state of the todo list
   //currentTodos are retrieved from the useState hook declared above
