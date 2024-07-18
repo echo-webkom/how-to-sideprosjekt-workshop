@@ -60,6 +60,7 @@ export default function ToDoListPage() {
     })
   }
 
+  console.log(todos)
 
   return (
     //upon clicking the button, the onSubmit event listener triggers the handleSubmit method

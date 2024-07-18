@@ -31,7 +31,7 @@ export default function Home() {
 
         <h2>
           <li>
-          <Link className="link" href="/ToDoList">✔️ Todo list</Link>!
+          <Link className="link" href="/ToDoList">🆕 ✔️ Todo list</Link>!
           </li>
         </h2>
 
