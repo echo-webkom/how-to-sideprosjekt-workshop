@@ -1,6 +1,7 @@
 
 export default function JavaProjectTitle() {
   return (
+    
     <div className="text-center column-container">
 
 
