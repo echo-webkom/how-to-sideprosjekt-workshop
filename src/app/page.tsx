@@ -1,5 +1,3 @@
-
-import { Http2ServerRequest } from 'http2';
 import Link from 'next/link'
 
 
