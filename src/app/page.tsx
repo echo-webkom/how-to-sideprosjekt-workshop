@@ -2,6 +2,8 @@ import Introduction from './Introduction'
 import React_Projects from './React_Projects';
 import BugShooter from './BugShooter';
 import RodentReboot from './RodentReboot';
+import Banner from './Banner';
+import Footer from './Footer';
 
 
 
@@ -10,6 +12,8 @@ export default function Home() {
     
       <div className="full-screen">
 
+        <Banner/>
+
         <Introduction/>
 
         <React_Projects/>
@@ -17,6 +21,8 @@ export default function Home() {
         <BugShooter/>
 
         <RodentReboot/>
+
+        <Footer/>
 
         </div>
       );

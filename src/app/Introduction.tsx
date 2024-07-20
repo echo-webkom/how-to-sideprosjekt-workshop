@@ -4,11 +4,8 @@ export default function Introduction() {
 
         <div className="text-center column-container">
 
-          <h1 className="text-2xl font-bold py-8">Hi, my name is Kai 👋</h1>
-
           <h2 className="text-xl py-8">
-
-            I am a Computer Science student in Bergen, Norway <br></br><br></br>
+          
             Welcome to my Portfolio Website! Take a look at the source code {" "}
             <a href="https://github.com/KWaloen/My-Portolio-Website" target="_blank" rel="noopener noreferrer" className="link">here.</a>
             <br></br>

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function React_Projects() {
     return(
-
+       
         <div className="text-center column-container">
           <h2 className="text-xl font-bold">React Projects</h2>
 
@@ -13,6 +13,7 @@ export default function React_Projects() {
           </h2>
 
         </div>
+       
 
     );
 
