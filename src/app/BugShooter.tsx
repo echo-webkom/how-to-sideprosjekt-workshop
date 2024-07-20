@@ -1,17 +1,15 @@
 
 export default function JavaProjectTitle() {
   return (
-    
+
     <div className="text-center column-container">
 
-
-      <h1 className="text-xl font-bold py-4">
-        Java Projects
-
-      </h1>
       <div className="card">
-        <h2 className="text-xl font-bold py-4">
 
+
+        <h2 className="text-xl font-bold py-4">
+          Java Projects
+          <br/>
           ----- BugShooter -----
 
         </h2>

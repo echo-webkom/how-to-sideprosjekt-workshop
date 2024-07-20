@@ -4,6 +4,7 @@ import BugShooter from './BugShooter';
 import RodentReboot from './RodentReboot';
 import Banner from './Banner';
 import Footer from './Footer';
+import SubBanner from './SubBanner';
 
 
 
@@ -13,6 +14,8 @@ export default function Home() {
       <div className="full-screen">
 
         <Banner/>
+
+        <SubBanner/>
 
         <Introduction/>
 
