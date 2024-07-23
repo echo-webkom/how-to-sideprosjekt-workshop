@@ -1,13 +1,15 @@
+
 export default function RodentReboot() {
     return (
         <div className="text-center column-container">
 
             <div className="card">
-                <h3 className="text-xl font-bold py-8">
+                <h2 className="text-xl font-bold py-4">
 
                     ----- Rodent Reboot -----
 
-                </h3>
+                </h2>
+                <p>Warning: the music can be a bit loud, volume check!</p>
                 <iframe
                     className="mx-auto"
                     width="400"
@@ -18,9 +20,8 @@ export default function RodentReboot() {
                     allowFullScreen
                 ></iframe>
 
-                <p className="text-xl py-8">
-
-                    I present to you, Rodent Reboot ☝!
+                <p className="text-xl py-8">                
+                    I present to you, Rodent Reboot ☝! 
                     <br></br><br></br>
                     This is a game written in Java using LibGDX using Agile techniques as part of Inf112 coursework.
                     A blog written as a group can be found {" "}
