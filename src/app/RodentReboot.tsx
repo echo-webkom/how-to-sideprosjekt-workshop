@@ -3,7 +3,7 @@ export default function RodentReboot() {
         <div className="text-center column-container">
 
             <div className="card">
-                <h3 className="text-2xl font-bold py-8">
+                <h3 className="text-xl font-bold py-8">
 
                     ----- Rodent Reboot -----
 

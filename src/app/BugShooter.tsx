@@ -9,12 +9,14 @@ export default function JavaProjectTitle() {
 
         <h2 className="text-xl font-bold py-4">
           Java Projects
-          <br/>
+
+          <h2 className="text-xl font-bold py-4"></h2>
           ----- BugShooter -----
 
         </h2>
 
         <iframe
+
           className="mx-auto"
           width="400"
           height="300"
