@@ -5,7 +5,7 @@ export default function Introduction() {
     <div className="text-center column-container">
       
         <div className="card text-xl">
-          <br/>
+          
           Welcome to my Portfolio Website! Take a look at the source code {" "}
           <a href="https://github.com/KWaloen/My-Portolio-Website" target="_blank" rel="noopener noreferrer" className="link">here.</a>
           <br></br>
