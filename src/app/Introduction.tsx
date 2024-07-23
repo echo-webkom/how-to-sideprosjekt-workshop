@@ -14,8 +14,8 @@ export default function Introduction() {
           <a href="https://github.com/KWaloen" target="_blank" rel="noopener noreferrer" className="link">GitHub </a>
           page!
           <br></br><br></br>
-          This site is under constant construction! I am learning as I go! <br></br>
-          I am self taught in JavaScript and this page is created using React, Tailwind CSS, and hosted by Vercel.
+          This site is under constant construction! I am self taught in webdev and am learning as I go! <br></br>
+          
         </div>
 
       
