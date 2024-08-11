@@ -19,8 +19,6 @@ export default function RegistrationPage() {
             <h1 className = "text">Register here! Enter your new username and password.</h1>
             <RegistrationForm onSubmit={welcomeUser} />
         
-            <h2 className = "text">Entered username is: {submittedUsername}</h2>
-            <h2 className = "text">Entered password is: {submittedPassword}</h2>
            
         </div>
     )

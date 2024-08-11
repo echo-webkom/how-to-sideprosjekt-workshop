@@ -11,6 +11,8 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "mongoose": "^8.5.2",
     "next": "^14.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
