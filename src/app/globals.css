@@ -45,7 +45,7 @@
   }
 
   iframe {
-    display: flex;
+    margin: 0 auto;
   }
 
   .link {
@@ -265,11 +265,19 @@
   }
 
   .text {
-
-    
     text-align: center;
     justify-content: center;
-    max-width : 60%;
+    max-width: 60%;
+  }
+
+  @media(max-width: 480px) {
+    .text {
+      max-width: 100%;
+    }
+
+    .iframe {
+      margin-left: 0;
+    }
   }
 
  
