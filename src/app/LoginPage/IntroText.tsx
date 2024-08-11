@@ -1,8 +1,8 @@
 
 export default function IntroductionText() {
     return(
+        <div className = "text column-container">
         <div className = "card">
-        <div className = "text">
             <h1>
                 This is a little work in progress user registration and authentication log in page. Stay tuned!
             </h1>
