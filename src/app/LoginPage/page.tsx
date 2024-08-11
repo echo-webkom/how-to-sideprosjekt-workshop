@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import LogInForm from "./LogInForm"
+import RegistrationForm from "./RegistrationForm"
 import IntroText from "./IntroText"
 
 export default function LogInPage() {
@@ -16,12 +16,12 @@ export default function LogInPage() {
     return (
         <div>
             <IntroText />
-            <LogInForm onSubmit={welcomeUser} />
-
-            <div className = "logInConfirmationTextContainer">
-            {submittedUsername && submittedPassword && <p>Welcome {submittedUsername}! Your password is {submittedPassword}</p>}
+            <h1 className = "text-center column-container">Register here! Enter your new username and password.</h1>
+            <RegistrationForm onSubmit={welcomeUser} />
+        
+            <h2 className = "text-center column-container">Entered username is: {submittedUsername}</h2>
+            <h2 className = "text-center column-container">Entered password is: {submittedPassword}</h2>
            
-            </div>
         </div>
     )
 }

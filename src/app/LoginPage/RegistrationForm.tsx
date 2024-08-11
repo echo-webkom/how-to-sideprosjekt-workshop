@@ -1,10 +1,10 @@
 import { useState } from "react"
 
-interface LogInFormProps {
+interface RegistrationFormProps {
     onSubmit: (newUser: string, newPassword: string) => void;
 }
 
-export default function LogInForm(props: LogInFormProps) {
+export default function RegistrationForm(props: RegistrationFormProps) {
     
     const [username, setNewUsername] = useState("")
     const [password, setPassword] = useState("")
