@@ -9,7 +9,7 @@ export default function RodentReboot() {
                     ----- Rodent Reboot -----
 
                 </h2>
-                <p>Warning: the music can be a bit loud, volume check!</p>
+                <p>⚠️ Warning: the music can be a bit loud, volume check! ⚠️</p>
                 <iframe
                     className="mx-auto"
                     width="400"

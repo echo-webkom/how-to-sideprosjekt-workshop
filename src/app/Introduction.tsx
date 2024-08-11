@@ -1,10 +1,10 @@
 
 export default function Introduction() {
   return (
+    
+        <div className="text text-xl">
 
-    <div className="text">
-      
-        <div className="card text-xl">
+          <div className = "card">
           
           Welcome to my Portfolio Website! Take a look at the source code {" "}
           <a href="https://github.com/KWaloen/My-Portolio-Website" target="_blank" rel="noopener noreferrer" className="link">here.</a>
@@ -17,8 +17,6 @@ export default function Introduction() {
           This site is under constant construction! I am self taught in webdev and am learning as I go! <br></br>
           
         </div>
-
-      
-    </div>
+        </div>
   )
 }

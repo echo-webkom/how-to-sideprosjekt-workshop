@@ -18,8 +18,6 @@ export default function React_Projects() {
 
             </div>
         </div>
-
-
     );
 
 }

@@ -11,7 +11,7 @@ import SubBanner from './SubBanner';
 export default function Home() {
   return (
     
-      <div className="full-screen">
+      <div className="full-screen column-container">
 
         <Banner/>
 
@@ -28,5 +28,6 @@ export default function Home() {
         <Footer/>
 
         </div>
+
       );
 }

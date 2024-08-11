@@ -16,7 +16,7 @@ export default function RegistrationPage() {
     return (
         <div>
             <IntroText />
-            <h1 className = "text">Register here! Enter your new username and password.</h1>
+            <h1 className = "text column-container">Register here! Enter your new username and password.</h1>
             <RegistrationForm onSubmit={welcomeUser} />
         
            
