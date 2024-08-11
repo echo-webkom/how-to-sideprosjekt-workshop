@@ -11,7 +11,7 @@ export default function RodentReboot() {
                 </h2>
                 <p>⚠️ Warning: the music can be a bit loud, volume check! ⚠️</p>
                 <iframe
-                    className="mx-auto"
+                    className="iframe"
                     src="https://www.youtube.com/embed/Q8Xg16uNTP0"
                     title="Rodent Reboot"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

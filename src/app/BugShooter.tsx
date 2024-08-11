@@ -15,7 +15,7 @@ export default function JavaProjectTitle() {
         </h2>
 
         <iframe
-          className="mx-auto"
+          className="iframe"
           src="https://www.youtube.com/embed/456Mii_hQ90"
           title="BugShooter - a student game made in Java"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
