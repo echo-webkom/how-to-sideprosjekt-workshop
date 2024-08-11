@@ -4,7 +4,7 @@ import { useState } from "react"
 import RegistrationForm from "./RegistrationForm"
 import IntroText from "./IntroText"
 
-export default function LogInPage() {
+export default function RegistrationPage() {
     const [submittedUsername, setSubmittedUsername] = useState<string | null>(null);
     const [submittedPassword, setSubmittedPassword] = useState<string | null>(null);
 
@@ -16,11 +16,11 @@ export default function LogInPage() {
     return (
         <div>
             <IntroText />
-            <h1 className = "text-center column-container">Register here! Enter your new username and password.</h1>
+            <h1 className = "text">Register here! Enter your new username and password.</h1>
             <RegistrationForm onSubmit={welcomeUser} />
         
-            <h2 className = "text-center column-container">Entered username is: {submittedUsername}</h2>
-            <h2 className = "text-center column-container">Entered password is: {submittedPassword}</h2>
+            <h2 className = "text">Entered username is: {submittedUsername}</h2>
+            <h2 className = "text">Entered password is: {submittedPassword}</h2>
            
         </div>
     )

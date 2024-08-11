@@ -2,7 +2,7 @@
 export default function JavaProjectTitle() {
   return (
 
-    <div className="text-center column-container">
+    <div className="text">
 
       <div className="card">
         <h2 className="text-xl font-bold py-4">
@@ -15,7 +15,6 @@ export default function JavaProjectTitle() {
         </h2>
 
         <iframe
-
           className="mx-auto"
           width="400"
           height="300"

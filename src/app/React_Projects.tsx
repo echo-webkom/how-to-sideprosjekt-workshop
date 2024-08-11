@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function React_Projects() {
     return (
 
-        <div className="text-center column-container">
+        <div className="text">
             <div className='card'>
                 <h2 className="text-xl font-bold">React Projects</h2>
 

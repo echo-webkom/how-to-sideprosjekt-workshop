@@ -2,7 +2,7 @@
 export default function Introduction() {
   return (
 
-    <div className="text-center column-container">
+    <div className="text">
       
         <div className="card text-xl">
           

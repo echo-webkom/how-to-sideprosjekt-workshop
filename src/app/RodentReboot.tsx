@@ -1,7 +1,7 @@
 
 export default function RodentReboot() {
     return (
-        <div className="text-center column-container">
+        <div className="text">
 
             <div className="card">
                 <h2 className="text-xl font-bold py-4">
