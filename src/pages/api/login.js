@@ -7,11 +7,6 @@ mongoose.connect(process.env.DBURI, {
 .then(() => console.log("Connected to MongoDB"))
 .catch((err) => console.error("Failed to connect to MongoDB", err));
 
-const userSchema = new mongoose.Schema({
-    username: { type: String, required: true, unique: true },
-    password: { type: String, required: true },})
-
-// Check if the model is already compiled, and if not, compile it
 const User = mongoose.models.User || mongoose.model('User', userSchema);
 
 export default async function handler(req, res) {
@@ -19,22 +14,18 @@ export default async function handler(req, res) {
         const { username, password } = req.body;
 
         try {
-            // Check if the user already exists
             const existingUser = await User.findOne({ username });
-            if (existingUser) {
-                return res.status(400).json({ message: 'Username already taken' });
+            const correctPassword = await bcrypt.compare(password, existingUser.password)
+
+            if (!existingUser) {
+                return res.status(401).json({message:'Login not successful'})
+            } else if (existingUser && correctPassword) {
+                return res.status(200).json({message:'Login successful'})
+            } else {
+                return res.status(401).json({message:'Login not successful'})
             }
-
-            // Hash the password
-            const hashedPassword = await bcrypt.hash(password, 10);
-
-            // Create a new user
-            const newUser = new User({ username, password: hashedPassword });
-            await newUser.save();
-
-            res.status(201).json({ message: 'User registered successfully' });
         } catch (error) {
-            console.error("Error registering user:", error);
+            console.error("Error logging in user:", error);
             res.status(500).json({ message: 'Server error', error });
         }
     } else {

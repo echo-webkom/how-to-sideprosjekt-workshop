@@ -3,12 +3,13 @@
 import { useState } from "react"
 import RegistrationForm from "./RegistrationForm"
 import IntroText from "./IntroText"
+import LogInForm from "./LogInForm"
 
 export default function RegistrationPage() {
-    const [submittedUsername, setSubmittedUsername] = useState<string | null>(null);
-    const [submittedPassword, setSubmittedPassword] = useState<string | null>(null);
+    const [submittedUsername, setSubmittedUsername] = useState<string>("");
+    const [submittedPassword, setSubmittedPassword] = useState<string>("");
 
-    function welcomeUser(username: string, password: string) {
+    function takeInCredentials(username: string, password: string) {
         setSubmittedUsername(username);
         setSubmittedPassword(password);
     }
@@ -16,10 +17,17 @@ export default function RegistrationPage() {
     return (
         <div>
             <IntroText />
-            <h1 className = "text column-container">Register here! Enter your new username and password.</h1>
-            <RegistrationForm onSubmit={welcomeUser} />
-        
-           
+                <div className="card">
+                    <h1 className = "text column-container">Register here!</h1>
+                    <h1 className = "text column-container">Enter your new username and password.</h1>
+                    <RegistrationForm onSubmit={takeInCredentials} />
+                </div>
+
+                <div className="card">
+                    <h1 className = "text column-container">Log in here!</h1> 
+                    <h1 className = "text column-container">Enter your registered username and password.</h1>
+                    <LogInForm onSubmit={takeInCredentials} />
+                </div>
         </div>
     )
 }
