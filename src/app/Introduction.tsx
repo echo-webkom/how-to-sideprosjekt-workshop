@@ -1,6 +1,6 @@
 export default function Introduction() {
   return (
-    <div className="frontpage">
+    <div className="page">
       <div className="card">
         Welcome to my website! 
         <br></br>

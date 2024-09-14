@@ -2,7 +2,7 @@
 export default function Footer() {
     return(
         <div className = "footer card" >
-            <p>--------------------------------------------------------------------------------------------------</p>
+            <hr />
             &copy; {new Date().getFullYear()} Kai Waløen
         </div>
     );

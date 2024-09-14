@@ -64,7 +64,7 @@ export default function ToDoListPage() {
 
   return (
     //upon clicking the button, the onSubmit event listener triggers the handleSubmit method
-    <div>
+    <div className = "page">
 
       
       <NewToDoForm onSubmit={addTodo} />

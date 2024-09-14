@@ -10,7 +10,7 @@ import SubBanner from './SubBanner';
 export default function Home() {
   return (
     
-      <div className="frontpage">
+      <div className="page">
 
         <Banner/>
 

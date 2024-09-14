@@ -2,7 +2,7 @@
 export default function BugShooter() {
   return (
 
-    <div className="text">
+    <div className="page">
 
       <div className="card">
         <h2 className="text-xl font-bold py-4">

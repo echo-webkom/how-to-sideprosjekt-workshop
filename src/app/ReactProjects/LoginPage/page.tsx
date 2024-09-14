@@ -15,7 +15,7 @@ export default function RegistrationPage() {
     }
 
     return (
-        <div>
+        <div className = "page">
             <IntroText />
                 <div className="card">
                     <h1 className = "text">Register here!</h1>

@@ -193,10 +193,13 @@
   }
   
 
-  .frontpage {
+  .page {
     text-align: center;
     font-size: 18px;
     font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: auto;
+
   }
 
   .frontpage .nav {
@@ -207,7 +210,6 @@
 
   .banner {
     border: 1px solid black;
-    background: linear-gradient(green, rgb(0, 0, 0));
     width: 100%;
     height: 20%;
   }
@@ -221,10 +223,10 @@
   }
 
   .footer {
-    background: linear-gradient(black, green);
     width: 100%;
     height: 20%;
     text-align: center;
+    
   }
 
   .banner .subBanner {
@@ -256,6 +258,12 @@
   }
 
   .text {
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .longtext {
     text-align: center;
     justify-content: center;
     max-width: 100%;
