@@ -18,8 +18,8 @@ export default function RegistrationPage() {
         <div>
             <IntroText />
                 <div className="card">
-                    <h1 className = "text column-container">Register here!</h1>
-                    <h1 className = "text column-container">Enter your new username and password.</h1>
+                    <h1 className = "text">Register here!</h1>
+                    <h1 className = "text">Enter your new username and password.</h1>
                     <RegistrationForm onSubmit={takeInCredentials} />
                 </div>
 

@@ -258,7 +258,7 @@
   .text {
     text-align: center;
     justify-content: center;
-    max-width: 60%;
+    max-width: 100%;
   }
 
   @media(max-width: 480px) {
