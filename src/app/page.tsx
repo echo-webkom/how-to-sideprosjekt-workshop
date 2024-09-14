@@ -1,7 +1,6 @@
 import Introduction from './Introduction'
-import React_Projects from './React_Projects';
-import BugShooter from './BugShooter';
-import RodentReboot from './RodentReboot';
+import React_Projects from './ReactProjects/React_Projects';
+import Java_Projects from './JavaProjects/Java_Projects';
 import Banner from './Banner';
 import Footer from './Footer';
 import SubBanner from './SubBanner';
@@ -11,20 +10,18 @@ import SubBanner from './SubBanner';
 export default function Home() {
   return (
     
-      <div className="full-screen column-container">
+      <div className="frontpage">
 
         <Banner/>
 
         <SubBanner/>
 
         <Introduction/>
-
+        
         <React_Projects/>
         
-        <BugShooter/>
-
-        <RodentReboot/>
-
+        <Java_Projects/>
+        
         <Footer/>
 
         </div>

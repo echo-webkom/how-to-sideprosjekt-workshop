@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/ToDoList/ToDoList.jsx", "src/app/ToDoList/ToDoItem.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/ReactProjects/ToDoList/ToDoList.jsx", "src/app/ReactProjects/ToDoList/ToDoItem.jsx"],
   "exclude": ["node_modules"]
 }

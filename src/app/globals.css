@@ -3,45 +3,18 @@
 @tailwind utilities;
 
 @layer base {
-  * {
-    box-sizing: border-box;
-    min-width: 0;
-  }
-
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background: rgb(0, 0, 0);
-    background-size: cover;
-    background-attachment: fixed;
-  }
-
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    color: rgb(236, 236, 236);
-
-  }
-
   
-  .full-screen {
-    width: 100%;
-    min-height: 100%;
-    background: inherit;
+  
+
+  html, body {
+    background-color: rgb(0, 0, 0);
+    
   }
 
-  .column-container {
-    display: flex;
-    flex-direction: column;
+  body {
     align-items: center;
-    max-width: 8;
-    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    color: rgb(236, 236, 236);
   }
 
   iframe {
@@ -112,6 +85,7 @@
     border-radius: 0.25em;
     padding: 0.25em 0.5em;
     color: hsl(210, 8%, 5%);
+    
   }
 
   .new-item-form input:focus {
@@ -120,8 +94,7 @@
 
   .header {
     font-size: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
+    text-align: center;
   }
 
   .list {
@@ -129,6 +102,7 @@
     padding: 0;
     margin-left: 1rem;
     list-style: none;
+    text-align: center;
   }
 
   .list li:has(input:checked) label {
@@ -139,6 +113,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
+    align-items: center;
   }
 
   .list li {
@@ -196,7 +171,7 @@
   }
 
   .card {
-    padding: 50px;
+    padding: 25px;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -216,12 +191,25 @@
     padding: 10px;
 
   }
+  
+
+  .frontpage {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
+
+  .frontpage .nav {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
 
   .banner {
     border: 1px solid black;
     background: linear-gradient(green, rgb(0, 0, 0));
     width: 100%;
-    height: 200px;
+    height: 20%;
   }
 
   .banner .banner-text {
@@ -235,7 +223,8 @@
   .footer {
     background: linear-gradient(black, green);
     width: 100%;
-    height: 100px;
+    height: 20%;
+    text-align: center;
   }
 
   .banner .subBanner {
@@ -278,7 +267,6 @@
     }
 
     .iframe {
-
       display:block;
       width: 180px;
       height: 180px;

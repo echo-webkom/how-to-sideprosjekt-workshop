@@ -66,23 +66,10 @@ export default function ToDoListPage() {
     //upon clicking the button, the onSubmit event listener triggers the handleSubmit method
     <div>
 
-      <div className="todoComments">
-        Here are a few things that I learnt from making this project:
-        <ul>
-          <li> ✔️ How to properly use useState to update the states </li>
-          <li> ✔️ How to link between webpages using next/link</li>
-          <li> ✔️ Segration of parts similar to OOP</li>
-          <li> ✔️ Lambda expressions in JS</li>
-          <li> ✔️ The use of import </li>
-          <li> ✔️ The structure of JSX/TSX files: Hooks, Functions, Return</li>
-          <li> 🚀 ToDo: Connect a database to have memory </li>
-        </ul>
-
-      </div>
-
+      
       <NewToDoForm onSubmit={addTodo} />
 
-      <h1 className="header">Todo List</h1>
+      <h1 className="header ">Todo List</h1>
 
       <ToDoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
 

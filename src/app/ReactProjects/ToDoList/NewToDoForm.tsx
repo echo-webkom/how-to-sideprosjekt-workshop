@@ -21,7 +21,7 @@ export function NewToDoForm(props: NewToDoFormProps) {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="new-item-form">
+    <form onSubmit={handleSubmit} className="new-item-form card">
       <p>Based on {" "}
         <a href="https://www.youtube.com/watch?v=Rh3tobg7hEo" target="_blank" rel="noopener noreferrer" className="link">this</a> tutorial 🙌</p>
       <div className="form-row">

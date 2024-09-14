@@ -1,16 +1,14 @@
 
-export default function JavaProjectTitle() {
+export default function BugShooter() {
   return (
 
     <div className="text">
 
       <div className="card">
         <h2 className="text-xl font-bold py-4">
-          Java Projects
+         
           <br/><br/>
           ----- BugShooter -----
-         
-          
 
         </h2>
 
