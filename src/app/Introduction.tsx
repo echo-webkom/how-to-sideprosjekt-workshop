@@ -9,7 +9,7 @@ export default function Introduction() {
           <br/><br/>
           I am also an F1 fan 🏎️💨
           <br/><br/>
-          This website is a hobby project for fun to learn web development and to present my self and my work. 
+          This website is a hobby project for fun to learn web development and to present myself and my work. 
           
           I will be adding fun things to the site actively, so stay tuned!   
         </div>
