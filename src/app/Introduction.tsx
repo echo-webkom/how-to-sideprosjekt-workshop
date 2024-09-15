@@ -11,7 +11,7 @@ export default function Introduction() {
           <br/><br/>
           This website is a hobby project for fun to learn web development and to present my self and my work. 
           
-          I will be to add fun things to the site actively, so stay tuned!   
+          I will be adding fun things to the site actively, so stay tuned!   
         </div>
       </div>
     </div>
