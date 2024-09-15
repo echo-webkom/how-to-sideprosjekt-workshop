@@ -20,6 +20,8 @@
     margin: 0 auto;
     width: 400px;
     height: 300px;
+    
+    
   }
 
   .link {
@@ -218,8 +220,8 @@
     text-align: center;
     position: relative;
     bottom: 0;
-    padding: 10px;
-    margin: 20px;
+    border: 30px;
+    margin-top: 20px;
   }
 
   .banner .subBanner {
@@ -250,18 +252,6 @@
     
   }
 
-  .text {
-    text-align: center;
-    justify-content: center;
-    max-width: 100%;
-  }
-
-  .longtext {
-    text-align: center;
-    justify-content: center;
-    max-width: 100%;
-  }
-
   .navbar {
     margin: 15px;
     display: flex;
@@ -287,13 +277,25 @@
     }
   }
 
-  .introductionText {
+  .text {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif, sans-serif;
     margin-left: 10px;
     padding-left: 10px;
     text-align: left;
   }
+
+  .footerText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  .centerText {
+    text-align: center;
+  }
+
 
  
 }

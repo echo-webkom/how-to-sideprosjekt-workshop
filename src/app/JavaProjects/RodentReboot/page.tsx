@@ -13,15 +13,19 @@ export default function RodentReboot() {
             <Banner message = "Rodent Reboot"/>
 
                 <p>⚠️ Warning: the music can be a bit loud, volume check! ⚠️</p>
+                <br/>
+                <div >
                 <iframe
                     className="iframe"
                     src="https://www.youtube.com/embed/Q8Xg16uNTP0"
                     title="Rodent Reboot"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
+                    
                 ></iframe>
-
-                <p className="text-xl py-8">                
+                </div>
+                <br/>
+                <p className="text">                
                     I present to you, Rodent Reboot ☝! 
                     <br></br><br></br>
                     This is a game written in Java using LibGDX using Agile techniques as part of Inf112 coursework.

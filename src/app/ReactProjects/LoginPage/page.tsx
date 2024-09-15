@@ -23,14 +23,14 @@ export default function RegistrationPage() {
             <Banner message = "🔑 Login Page 🔒" />
             <IntroText />
                 <div className="card">
-                    <h1 className = "text">Register here!</h1>
-                    <h1 className = "text">Enter your new username and password.</h1>
+                    <h1 className = "text centerText">Register here!</h1>
+                    <h1 className = "text centerText">Enter your new username and password.</h1>
                     <RegistrationForm onSubmit={takeInCredentials} />
                 </div>
 
                 <div className="card">
-                    <h1 className = "text column-container">Log in here!</h1> 
-                    <h1 className = "text column-container">Enter your registered username and password.</h1>
+                    <h1 className = "text centerText">Log in here!</h1> 
+                    <h1 className = "text centerText">Enter your registered username and password.</h1>
                     <LogInForm onSubmit={takeInCredentials} />
                 </div>
 
