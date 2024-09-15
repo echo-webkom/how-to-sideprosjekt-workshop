@@ -1,14 +1,14 @@
+import Footer from "../../Footer"
+import Banner from "../../Banner"
 
 export default function RodentReboot() {
     return (
         <div className="page">
 
             <div className="card">
-                <h2 className="text-xl font-bold py-4">
+                
+            <Banner message = "Rodent Reboot"/>
 
-                    ----- Rodent Reboot -----
-
-                </h2>
                 <p>⚠️ Warning: the music can be a bit loud, volume check! ⚠️</p>
                 <iframe
                     className="iframe"
@@ -36,6 +36,7 @@ export default function RodentReboot() {
                     on my GitHub!
                 </p>
             </div>
+            <Footer />
         </div>
     );
 }

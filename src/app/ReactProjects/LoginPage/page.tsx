@@ -4,6 +4,8 @@ import { useState } from "react"
 import RegistrationForm from "./RegistrationForm"
 import IntroText from "./IntroText"
 import LogInForm from "./LogInForm"
+import Footer from "../../Footer"
+import Banner from "../../Banner"
 
 export default function RegistrationPage() {
     const [submittedUsername, setSubmittedUsername] = useState<string>("");
@@ -16,6 +18,7 @@ export default function RegistrationPage() {
 
     return (
         <div className = "page">
+            <Banner message = "🔑 Login Page 🔒" />
             <IntroText />
                 <div className="card">
                     <h1 className = "text">Register here!</h1>
@@ -28,6 +31,8 @@ export default function RegistrationPage() {
                     <h1 className = "text column-container">Enter your registered username and password.</h1>
                     <LogInForm onSubmit={takeInCredentials} />
                 </div>
+
+            <Footer />
         </div>
     )
 }

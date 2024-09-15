@@ -6,6 +6,8 @@
 import { useState } from "react"
 import { NewToDoForm } from "./NewToDoForm"
 import { ToDoList } from "./ToDoList"
+import Footer from "../../Footer"
+import Banner from "../../Banner"
 
 
 export default function ToDoListPage() {
@@ -66,12 +68,17 @@ export default function ToDoListPage() {
     //upon clicking the button, the onSubmit event listener triggers the handleSubmit method
     <div className = "page">
 
-      
+      <Banner message = "✔️ Todo list"/ >
+
       <NewToDoForm onSubmit={addTodo} />
+
+      <p> Todo on the todolist: plug in a database to have a persistent todo list</p>
 
       <h1 className="header ">Todo List</h1>
 
       <ToDoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
+
+      <Footer />
 
     </div>
 

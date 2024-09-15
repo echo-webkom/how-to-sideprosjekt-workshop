@@ -1,3 +1,5 @@
+import Footer from "../../Footer"
+import Banner from "../../Banner"
 
 export default function BugShooter() {
   return (
@@ -5,11 +7,8 @@ export default function BugShooter() {
     <div className="page">
 
       <div className="card">
-        <h2 className="text-xl font-bold py-4">
-         
-          ----- BugShooter -----
 
-        </h2>
+      <Banner message = "BugShooter"/>  
 
         <iframe
           className="iframe"
@@ -30,6 +29,8 @@ export default function BugShooter() {
           on my GitHub!
         </p>
       </div>
+
+    <Footer />
     </div>
   )
 }

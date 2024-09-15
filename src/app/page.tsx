@@ -12,7 +12,7 @@ export default function Home() {
     
       <div className="page">
 
-        <Banner/>
+        <Banner message = "Hi, my name is Kai 👋"/>
 
         <SubBanner/>
 
