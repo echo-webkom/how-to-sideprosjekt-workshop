@@ -11,7 +11,7 @@ export default function BugShooter() {
 
       <NavBar />
 
-      <Banner message = "BugShooter"/>  
+      <Banner message = "🐜 BugShooter 🐜"/>  
 
       <div>
         <iframe

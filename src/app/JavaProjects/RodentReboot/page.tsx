@@ -10,7 +10,7 @@ export default function RodentReboot() {
 
             <NavBar />
                 
-            <Banner message = "Rodent Reboot"/>
+            <Banner message = "🐀 Rodent Reboot 🐀"/>
 
                 <p>⚠️ Warning: the music can be a bit loud, volume check! ⚠️</p>
                 <br/>
