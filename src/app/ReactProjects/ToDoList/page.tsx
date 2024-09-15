@@ -75,7 +75,7 @@ export default function ToDoListPage() {
 
       <NewToDoForm onSubmit={addTodo} />
 
-      <p> Todo on the todolist: plug in a database to have a persistent todo list</p>
+      <p> Todo on the todo list: plug in a database to have a persistent todo list</p>
 
       <h1 className="header">----- Todo List -----</h1>
 
