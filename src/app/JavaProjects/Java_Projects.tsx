@@ -9,10 +9,10 @@ export default function Java_Projects() {
 
                 <h2>
                     <li>
-                        <Link className="link" href="/JavaProjects/BugShooter"> 🐜 BugShooter </Link>!
+                        <Link className="link" href="/JavaProjects/BugShooter"> 🐜 BugShooter </Link>
                     </li>
                     <li>
-                        <Link className="link" href="/JavaProjects/RodentReboot"> 🐀 Rodent Reboot</Link>!
+                        <Link className="link" href="/JavaProjects/RodentReboot"> 🐀 Rodent Reboot</Link>
                     </li>
                 </h2>
 

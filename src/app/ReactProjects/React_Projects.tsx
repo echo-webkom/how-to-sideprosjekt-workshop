@@ -8,10 +8,10 @@ export default function React_Projects() {
 
                 <h2>
                     <li>
-                        <Link className="link" href="/ReactProjects/ToDoList"> ✔️ Todo list</Link>!
+                        <Link className="link" href="/ReactProjects/ToDoList"> ✔️ Todo list</Link>
                     </li>
                     <li>
-                        <Link className="link" href="/ReactProjects/LoginPage">🆕 Login Page</Link>!
+                        <Link className="link" href="/ReactProjects/LoginPage">🆕 Login Page</Link>
                     </li>
                 </h2>
 

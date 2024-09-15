@@ -7,7 +7,6 @@ export default function BugShooter() {
       <div className="card">
         <h2 className="text-xl font-bold py-4">
          
-          <br/><br/>
           ----- BugShooter -----
 
         </h2>
