@@ -77,7 +77,7 @@ export default function ToDoListPage() {
 
       <p> Todo on the todolist: plug in a database to have a persistent todo list</p>
 
-      <h1 className="header ">Todo List</h1>
+      <h1 className="header">Todo List</h1>
 
       <ToDoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
 
