@@ -160,7 +160,7 @@
 
   .list li:has(input:checked) label::before {
     content: "✔";
-    background: hsl(200, 100%, 40%);
+    background: rgb(129, 110, 80);
     color: hsl(200, 100%, 90%);
     font-size: 0.75rem;
     font-weight: bold;

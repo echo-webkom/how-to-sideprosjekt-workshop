@@ -4,7 +4,7 @@ export function ToDoList({ todos, toggleTodo, deleteTodo}) {
 
     return (
         <ul className="list">
-            {todos.length === 0 && "No Todos"}
+            {todos.length === 0 && ""}
             {todos.map(todo => {
                 //map loops through this code and returns the checkbox
                 //retrieves elements from the state and returns it on the page
