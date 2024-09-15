@@ -3,8 +3,8 @@ import React_Projects from './ReactProjects/React_Projects';
 import Java_Projects from './JavaProjects/Java_Projects';
 import Banner from './Banner';
 import Footer from './Footer';
-import SubBanner from './SubBanner';
 import NavBar from './NavBar';
+import BlinkingUnderscore from './BlinkingUnderscore'
 
 
 
