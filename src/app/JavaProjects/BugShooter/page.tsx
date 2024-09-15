@@ -1,5 +1,6 @@
 import Footer from "../../Footer"
 import Banner from "../../Banner"
+import NavBar from "@/app/NavBar"
 
 export default function BugShooter() {
   return (
@@ -7,6 +8,8 @@ export default function BugShooter() {
     <div className="page">
 
       <div className="card">
+
+      <NavBar />
 
       <Banner message = "BugShooter"/>  
 

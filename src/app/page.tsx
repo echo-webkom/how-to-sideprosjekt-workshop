@@ -4,6 +4,7 @@ import Java_Projects from './JavaProjects/Java_Projects';
 import Banner from './Banner';
 import Footer from './Footer';
 import SubBanner from './SubBanner';
+import NavBar from './NavBar';
 
 
 
@@ -11,6 +12,8 @@ export default function Home() {
   return (
     
       <div className="page">
+
+        <NavBar/>
 
         <Banner message = "Hi, my name is Kai 👋"/>
 
@@ -24,7 +27,7 @@ export default function Home() {
         
         <Footer/>
 
-        </div>
+      </div>
 
       );
 }

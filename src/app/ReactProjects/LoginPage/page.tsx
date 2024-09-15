@@ -6,6 +6,7 @@ import IntroText from "./IntroText"
 import LogInForm from "./LogInForm"
 import Footer from "../../Footer"
 import Banner from "../../Banner"
+import NavBar from "@/app/NavBar"
 
 export default function RegistrationPage() {
     const [submittedUsername, setSubmittedUsername] = useState<string>("");
@@ -18,6 +19,7 @@ export default function RegistrationPage() {
 
     return (
         <div className = "page">
+            <NavBar />
             <Banner message = "🔑 Login Page 🔒" />
             <IntroText />
                 <div className="card">

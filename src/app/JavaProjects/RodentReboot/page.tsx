@@ -1,11 +1,14 @@
 import Footer from "../../Footer"
 import Banner from "../../Banner"
+import NavBar from "@/app/NavBar";
 
 export default function RodentReboot() {
     return (
         <div className="page">
 
             <div className="card">
+
+            <NavBar />
                 
             <Banner message = "Rodent Reboot"/>
 

@@ -8,6 +8,7 @@ import { NewToDoForm } from "./NewToDoForm"
 import { ToDoList } from "./ToDoList"
 import Footer from "../../Footer"
 import Banner from "../../Banner"
+import NavBar from "@/app/NavBar"
 
 
 export default function ToDoListPage() {
@@ -67,6 +68,8 @@ export default function ToDoListPage() {
   return (
     //upon clicking the button, the onSubmit event listener triggers the handleSubmit method
     <div className = "page">
+
+      <NavBar/>
 
       <Banner message = "✔️ Todo list"/ >
 
