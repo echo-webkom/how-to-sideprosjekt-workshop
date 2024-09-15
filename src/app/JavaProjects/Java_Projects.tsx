@@ -8,12 +8,12 @@ export default function Java_Projects() {
                 <h2 className="text-xl font-bold">Java Projects</h2>
 
                 <h2>
-                    <li>
+                    <ul>
                         <Link className="link" href="/JavaProjects/BugShooter"> 🐜 BugShooter </Link>
-                    </li>
-                    <li>
+                    </ul>
+                    <ul>
                         <Link className="link" href="/JavaProjects/RodentReboot"> 🐀 Rodent Reboot</Link>
-                    </li>
+                    </ul>
                 </h2>
 
             </div>

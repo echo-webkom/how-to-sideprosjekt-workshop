@@ -7,12 +7,14 @@ export default function React_Projects() {
                 <h2 className="text-xl font-bold">React Projects</h2>
 
                 <h2>
-                    <li>
+                    
+                    <ul>
                         <Link className="link" href="/ReactProjects/ToDoList"> ✔️ Todo list</Link>
-                    </li>
-                    <li>
+                    </ul>
+                    <ul>
                         <Link className="link" href="/ReactProjects/LoginPage">🔑 Login Page 🔒</Link>
-                    </li>
+                    </ul>
+                    
                 </h2>
 
             </div>
