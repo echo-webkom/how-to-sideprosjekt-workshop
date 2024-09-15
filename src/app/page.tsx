@@ -15,9 +15,7 @@ export default function Home() {
 
         <NavBar/>
 
-        <Banner message = "Hi, my name is Kai 👋"/>
-
-        <SubBanner/>
+        <Banner message = 'console.log("Hello world")'/>
 
         <Introduction/>
         
