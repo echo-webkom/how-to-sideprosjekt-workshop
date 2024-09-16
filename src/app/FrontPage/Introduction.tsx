@@ -5,7 +5,7 @@ export default function Introduction() {
         <div className = "text" > 
           My name is Kai Waløen 👋 <br/><br/> 
           I am a Computer Science student at the University of Bergen. In my free time I enjoy playing games,
-          hanging out with my cat, and binge watching my new favorite series. 
+          hanging out with my cat 🐱, and binge watching my new favorite series. 
           <br/><br/>
           I am also an F1 fan 🏎️💨
           <br/><br/>
