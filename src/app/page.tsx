@@ -4,7 +4,7 @@ import Java_Projects from './JavaProjects/Java_Projects';
 import Banner from './Banner';
 import Footer from './Footer';
 import NavBar from './NavBar';
-import BlinkingUnderscore from './BlinkingUnderscore'
+import BlinkingUnderscore from './BlinkingUnderscore';
 
 
 
@@ -15,7 +15,9 @@ export default function Home() {
 
         <NavBar/>
 
-        <Banner message = 'console.log("Hello world")'/>
+        <div className='banner-container'>
+        <Banner message = 'console.log("Hello world");'/><BlinkingUnderscore/>
+        </div>
 
         <Introduction/>
         

@@ -4,8 +4,18 @@ import Image from 'next/image';
 export default function NavBar() {
   return (
     <div className="navbar">
-
       <div className="navbarleft">
+
+      <div className = "dropdown">
+        <button>🍔</button>
+          <div className = "dropdown-menu">
+            <Link className="link" href="/ReactProjects/ToDoList"> ✔️ Todo list ✔️</Link>
+            <Link className="link" href="/ReactProjects/LoginPage">🔑 Login Page 🔒</Link>
+            <Link className="link" href="/JavaProjects/BugShooter"> 🐜 BugShooter 🐜 </Link>
+            <Link className="link" href="/JavaProjects/RodentReboot"> 🐀 Rodent Reboot 🐀</Link>
+          </div>
+      </div>
+
         <Link className="link" href="/">
           {" "}
           Home 🏠{" "}
