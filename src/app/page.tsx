@@ -15,8 +15,11 @@ export default function Home() {
 
         <NavBar/>
 
+        <div className='content'>
+
         <div className='banner-container'>
-        <Banner message = 'console.log("Hello world");'/><BlinkingUnderscore/>
+          <Banner message = 'console.log("Hello world");'/>
+          <BlinkingUnderscore/>
         </div>
 
         <Introduction/>
@@ -24,6 +27,8 @@ export default function Home() {
         <React_Projects/>
         
         <Java_Projects/>
+
+        </div>
         
         <Footer/>
 
