@@ -1,6 +1,6 @@
-import Footer from "../../Footer"
-import Banner from "../../Banner"
-import NavBar from "@/app/NavBar";
+import Footer from "../../FrontPage/Footer"
+import Banner from "../../FrontPage/Banner"
+import NavBar from "@/app/FrontPage/NavBar";
 
 export default function RodentReboot() {
     return (

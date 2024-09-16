@@ -13,6 +13,7 @@ export default function NavBar() {
             <Link className="link" href="/ReactProjects/LoginPage">🔑 Login Page 🔒</Link>
             <Link className="link" href="/JavaProjects/BugShooter"> 🐜 BugShooter 🐜 </Link>
             <Link className="link" href="/JavaProjects/RodentReboot"> 🐀 Rodent Reboot 🐀</Link>
+            <Link className="link" href="/OtherStuff/CV"> 📝 Kai's CV 💼 </Link>
           </div>
       </div>
 
