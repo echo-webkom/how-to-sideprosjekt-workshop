@@ -11,7 +11,7 @@ export default function CV() {
             <Banner message = "📝 Kai's CV 💼"/>
 
             <div>
-            <Image src="/Kai_CV.png" alt="My CV" width = {800} height = {700}/>
+            <Image src="/Kai_CV.png" alt="My CV" width = {700} height = {700}/>
             </div>
 
             <Footer/>
