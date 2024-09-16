@@ -1,13 +1,11 @@
-import Footer from "../../Footer"
-import Banner from "../../Banner"
-import NavBar from "@/app/NavBar"
+import Footer from "../../FrontPage/Footer"
+import Banner from "../../FrontPage/Banner"
+import NavBar from "@/app/FrontPage/NavBar"
 
 export default function BugShooter() {
   return (
 
     <div className="page">
-
-      <div className="card">
 
       <NavBar />
 
@@ -33,9 +31,6 @@ export default function BugShooter() {
           <a href="https://github.com/KWaloen/BugShooter" target="_blank" rel="noopener noreferrer" className="link">repository </a>
           on my GitHub!
         </p>
-
-        
-      </div>
 
     <Footer />
     </div>

@@ -1,10 +1,12 @@
-import Introduction from './Introduction'
+import Introduction from './FrontPage/Introduction'
 import React_Projects from './ReactProjects/React_Projects';
 import Java_Projects from './JavaProjects/Java_Projects';
-import Banner from './Banner';
-import Footer from './Footer';
-import NavBar from './NavBar';
-import BlinkingUnderscore from './BlinkingUnderscore';
+import Banner from './FrontPage/Banner';
+import Footer from './FrontPage/Footer';
+import NavBar from './FrontPage/NavBar';
+import BlinkingUnderscore from './FrontPage/BlinkingUnderscore';
+import Link from 'next/link';
+
 
 
 
@@ -15,8 +17,11 @@ export default function Home() {
 
         <NavBar/>
 
+        <div className='content'>
+
         <div className='banner-container'>
-        <Banner message = 'console.log("Hello world");'/><BlinkingUnderscore/>
+          <Banner message = 'console.log("Hello world");'/>
+          <BlinkingUnderscore/>
         </div>
 
         <Introduction/>
@@ -24,6 +29,10 @@ export default function Home() {
         <React_Projects/>
         
         <Java_Projects/>
+
+        <Link className="link" href="/OtherStuff"> 🎉 Other Stuff 🥍 </Link>
+
+        </div>
         
         <Footer/>
 
