@@ -5,9 +5,6 @@ import NavBar from "@/app/NavBar";
 export default function RodentReboot() {
     return (
         <div className="page">
-
-            <div className="card">
-
             <NavBar />
                 
             <Banner message = "🐀 Rodent Reboot 🐀"/>
@@ -42,7 +39,7 @@ export default function RodentReboot() {
                     <a href="https://github.com/KWaloen/Rodent-Reboot" target="_blank" rel="noopener noreferrer" className="link">repository </a>
                     on my GitHub!
                 </p>
-            </div>
+            
             <Footer />
         </div>
     );

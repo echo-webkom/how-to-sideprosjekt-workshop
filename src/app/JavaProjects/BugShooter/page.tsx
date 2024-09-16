@@ -7,8 +7,6 @@ export default function BugShooter() {
 
     <div className="page">
 
-      <div className="card">
-
       <NavBar />
 
       <Banner message = "🐜 BugShooter 🐜"/>  
@@ -33,9 +31,6 @@ export default function BugShooter() {
           <a href="https://github.com/KWaloen/BugShooter" target="_blank" rel="noopener noreferrer" className="link">repository </a>
           on my GitHub!
         </p>
-
-        
-      </div>
 
     <Footer />
     </div>
