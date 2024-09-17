@@ -273,7 +273,7 @@
     }
 
     .banner {
-      font-size: 15px;
+      font-size: 20px;
       font-weight: bold ;
       text-align: center;
       border-top:10px;
@@ -285,7 +285,7 @@
     .blinking-underscore {
       display: inline-block;
       font-weight: bold;
-      font-size:1rem;
+      font-size:0.5rem;
     }
   }
 
