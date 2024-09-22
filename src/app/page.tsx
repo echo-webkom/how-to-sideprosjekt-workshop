@@ -20,7 +20,7 @@ export default function Home() {
         <div className='content'>
 
         <div className='banner-container'>
-          <Banner message = 'console.log("Hello world");'/>
+          <Banner message = 'Hello world'/>
           <BlinkingUnderscore/>
         </div>
 
