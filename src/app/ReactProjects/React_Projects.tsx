@@ -15,7 +15,7 @@ export default function React_Projects() {
                         <Link className="link" href="/ReactProjects/LoginPage">🔑 Login Page 🔒</Link>
                     </ul>
                     <ul>
-                        <Link className="link" href="/ReactProjects/FarmorsStuff">Farmors Stuff</Link>
+                        <Link className="link" href="/ReactProjects/Haskell_Is_Hard">Haskell_Is_Hard.AI</Link>
                     </ul>
                 </h2>
 
