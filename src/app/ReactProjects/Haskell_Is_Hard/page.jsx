@@ -9,7 +9,7 @@ export default function Haskell_Is_Hard() {
 
   const sendMessage = async () => {
     try {
-      const response = await fetch("http://localhost:8000/api/chat/", {
+      const response = await fetch("http://37.27.195.99:80/api/chat/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ "user message": message }),
